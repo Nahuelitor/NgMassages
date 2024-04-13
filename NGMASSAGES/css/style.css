@@ -6,6 +6,7 @@
 
 
 h1 {
+    font-size: 300%;
     color: red;
     text-align:center;
     padding-top: 20px;
@@ -19,4 +20,32 @@ h2 {
     padding-top: 20px;
     font-family:Georgia, 'Times New Roman', Times, serif
 
+}
+
+/* NAVBAR */
+
+#navbar {
+    background-color:rgb(180, 10, 10);
+    padding:21px;
+}
+
+#navbar div {
+    color:rgb(196, 7, 7);
+    display:inline-block;
+    padding:0;
+    margin:0;
+}
+
+.linksNavbar {
+    color:rgb(172, 6, 6);
+    text-decoration: none;
+    padding: 20px;
+
+    font-size: 20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.linksNavbar:hover{
+    background-color:rgb(180, 10, 10);
+    color:black
 }
